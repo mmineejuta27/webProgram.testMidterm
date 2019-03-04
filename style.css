@@ -1,0 +1,91 @@
+.column {
+     width: 100% ;
+     /* padding: 5% ; */
+     height: auto;
+}
+
+.imgIcon {
+     float: left;
+     width: 150px;
+     height: 150px;
+     display: inline-block;
+}
+
+.inLine{
+     display: inline-block;
+}
+
+.frameLine{
+     border: 2px solid palegoldenrod;
+     padding: 2px;
+     height: 700px;
+}
+
+h2 {
+     background-color: rgb(231, 217, 138); 
+     margin-top:0%;
+     padding-top: 0.5%;
+     padding-bottom: 0.5%;
+}
+
+.floatRight {
+     margin-left: 55%;
+}
+
+.textBox {
+     width: 77%;
+   padding: 15px 15px;
+   margin: 8px 0;
+   border: 1px solid #ccc;
+   font-size : 12px;
+   font-style: italic;
+}
+
+.columnH{
+     float: left;
+     width: 31%;
+     padding: 10px;
+}
+
+.columnD{
+     float: left;
+     width: 19%;
+     padding: 10px;
+     text-align: right;
+}
+
+.borderIdCard {
+     font-size : 12px;
+     padding: 15px 15px;
+     margin: 8px 0;
+     width: 350px;
+}
+
+.borderInput {
+     font-size : 12px;
+     padding: 15px 15px;
+     margin: 8px 0;
+     width: 70%; 
+}
+
+.borderInput2 {
+     font-size : 12px;
+     padding: 15px 15px;
+     margin: 8px 0;
+     width: 64%; 
+}
+
+.columnH2{
+     float: left;
+     width: 33%;
+     padding: 10px;
+}
+
+.columnD2{
+     float: left;
+     width: 18%;
+     padding: 10px;
+}
+
+
+

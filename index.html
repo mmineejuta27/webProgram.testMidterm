@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <title>Document</title>
+
+     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <style>
+    .ui-datepicker-trigger { position:relative;width:40px ; height:40px; top: 12px}
+  </style>
+
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker({
+      showOn: "button",
+      buttonImage: "./pic/Icon02.png",
+      buttonImageOnly: true,
+      buttonText: "Select date",   
+    });
+  } );
+  </script>
+
+</head>
+
+<body>
+
+     <section>
+          <img src="./pic/Icon01.png" alt="Smiley face" class="imgIcon">
+          <br><br>
+          <p>ในขั้นตอนที่ 1 ทำการลงทะเบียนก่อน เพื่อรับ <b>ชื่อผู้ใช้</b> และ <b>รหัสผ่าน</b></p>
+          <p>ใช้ในการกรอกใบสมัครในขั้นตอนที่ 2</p>
+     </section>
+     <section>
+          <div class="frameLine" style="margin-top:3%;">
+               <h2>ข้อมูลทั่วไป [ภาษาไทย]</h2>
+               <p class="inLine floatRight">หมายเลขบัตรประชาชน
+                    <input type="text" id="idCard" class="borderIdCard"></p>
+               <div class="columnH">
+                    <p class="columnD ">คำนำหน้า</p>
+                    <select id="prefix" class="textBox">
+                         <option value="select2">--เลือก--</option>
+                         <option value="male">นาย</option>
+                         <option value="femal">นาง</option>
+                         <option value="femal">นางสาว</option>
+                    </select>
+               </div>
+
+               <div class="columnH">
+                    <p class="columnD ">ชื่อ</p>
+                    <input type="text" id="name" class="borderInput">
+               </div>
+
+               <div class="columnH">
+                    <p class="columnD">นามสกุล</p>
+                    <input type="text" id="name" class="borderInput">
+               </div>
+               <br>
+               <!-- บรรทัด2 -->
+               <div class="columnH2">
+                    <p class="columnD2" style="text-align:right;">ชื่อเล่น</p>
+                    <input type="text" id="name" class="borderInput2">
+               </div>
+
+               <div class="columnH2">
+                    <p class="columnD2">วัน/เดือน/ปีเกิด</p>
+                    <input type="text" id="datepicker" class="borderInput2">
+               </div>
+
+
+               <!-- บรรทัด3 -->
+
+               <div class="columnH">
+                    <p class="columnD ">จังหวัด</p>
+                    <select id="provide" class="textBox">
+                         <option value="select2">--เลือก--</option>
+                         <option value="male">ชลบุรี</option>
+                         <option value="femal">นนทบุรี</option>
+                         <option value="femal">ฉะเชิงเทรา</option>
+                         <option value="femal">ลพบุรี</option>
+                         <option value="femal">สระแก้ว</option>
+                    </select>
+               </div>
+               <div class="columnH">
+                    <p class="columnD ">อำเภอ/เขต</p>
+                    <select id="district" class="textBox">
+                         <option value="select2">--เลือก--</option>
+                         <option value="male">เมือง</option>
+                         <option value="femal">ศรีราชา</option>
+                         <option value="femal">บ้านบึง</option>
+                         <option value="femal">พานทอง</option>
+                         <option value="femal">พนัสนิคม</option>
+                    </select>
+               </div>
+               <div class="columnH">
+                    <p class="columnD ">ตำบล/แขวง</p>
+                    <select id="locality" class="textBox">
+                         <option value="select2">--เลือก--</option>
+                         <option value="male">แสนสุข</option>
+                         <option value="femal">บ่อวิน</option>
+                         <option value="femal">บ้านบึง</option>
+                         <option value="femal">นาเกลือ</option>
+                         <option value="femal">หนองปรือ</option>
+                    </select>
+               </div>
+               <br>
+
+               <div class="columnH">
+                    <p class="columnD ">ชื่อ</p>
+                    <input type="text" id="name" class="borderInput">
+               </div>
+
+               <div class="columnH">
+                    <p class="columnD ">ชื่อ</p>
+                    <input type="text" id="name" class="borderInput">
+               </div>
+
+               <div class="columnH">
+                    <p class="columnD ">ชื่อ</p>
+                    <input type="text" id="name" class="borderInput">
+               </div>
+               <br>
+
+               <div class="columnH">
+                    <p class="columnD ">ชื่อ</p>
+                    <input type="text" id="name" class="borderInput">
+               </div>
+
+               <div class="columnH">
+                    <p class="columnD ">ชื่อ</p>
+                    <input type="text" id="name" class="borderInput">
+               </div>
+
+               <div class="columnH">
+                    <p class="columnD ">ชื่อ</p>
+                    <input type="text" id="name" class="borderInput">
+               </div>
+
+
+          </div>
+     </section>
+
+</body>
+
+</html>
